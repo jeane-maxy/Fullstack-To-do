@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #e0b200;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d4a600;
+}
+
+.task-list {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  min-height: 150px;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.exit-button {
+  background-color: #e0b200;
+  padding: 12px 100px;
+  font-size: 18px;
+  margin-top: 20px;
+}
